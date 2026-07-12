@@ -1,160 +1,250 @@
-# 📄 AI Resume Analyzer
+# 🤖 AI Resume Analyzer
 
-An AI-powered Resume Analyzer that compares a candidate's resume with a Job Description (JD), calculates an ATS compatibility score, identifies missing skills, and provides AI-driven recommendations to improve the resume.
+<div align="center">
 
-Built using **Python**, **Streamlit**, **Sentence Transformers**, **Google Gemini AI**, and **NLP** techniques.
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?style=for-the-badge&logo=streamlit)
+![Gemini](https://img.shields.io/badge/Google-Gemini_AI-blue?style=for-the-badge&logo=google)
+![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-black?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+### 🚀 AI-Powered ATS Resume Analyzer with Career Guidance
+
+Analyze resumes against job descriptions, calculate ATS scores, identify missing skills, generate AI-powered resume reviews, interview questions, learning roadmaps, and professional PDF reports.
+
+</div>
 
 ---
 
-## 🚀 Features
+# 📌 Overview
 
-### 📑 Resume Parsing
+AI Resume Analyzer is an intelligent web application that helps job seekers improve their resumes using Artificial Intelligence.
+
+The application compares a resume with a selected job description and provides:
+
+- ATS Compatibility Score
+- Resume Similarity Score
+- Skill Gap Analysis
+- AI Resume Review
+- Learning Roadmap
+- Interview Questions
+- Career Guidance
+- Professional PDF Report
+
+The application supports both:
+
+- Google Gemini API
+- Ollama (Local AI Models)
+
+---
+
+# ✨ Features
+
+## 📄 Resume Analysis
+
 - Upload Resume (PDF/DOCX)
-- Upload Job Description (PDF/DOCX/TXT)
-- Automatic text extraction
-
-### 🤖 AI Resume Review
-- Resume quality assessment
-- ATS compatibility review
-- Resume improvement suggestions
-- AI-powered feedback using Google Gemini
-
-### 📊 ATS Analysis
+- Automatic Resume Parsing
+- Job Description Matching
+- Resume Similarity Analysis
 - ATS Score Calculation
-- Resume–JD Similarity
-- Keyword Analysis
-- Missing Skills Detection
-- Matching Skills Detection
-- Resume Statistics
-
-### 📈 Visual Dashboard
-- ATS Score Gauge
-- Score Breakdown Chart
-- Skill Match Analysis
-- Resume Statistics
-- Interactive Charts
-
-### 📄 Report Generation
-- Professional ATS Report
-- Downloadable PDF Report
-- Resume Analysis Summary
 
 ---
 
-# 🛠️ Tech Stack
+## 🧠 AI Resume Review
+
+Generate a complete AI review including:
+
+- Resume Strengths
+- Resume Weaknesses
+- Missing Skills
+- ATS Improvement Suggestions
+- Recruiter Impression
+- Final Recommendation
+
+---
+
+## 🎯 Skill Matching
+
+- Resume Skills Extraction
+- Job Description Skills Extraction
+- Matching Skills
+- Missing Skills
+- Skill Match Percentage
+
+---
+
+## 📚 Learning Roadmap
+
+Generate a personalized roadmap for missing skills including:
+
+- Learning Priority
+- Difficulty Level
+- Estimated Learning Time
+- Recommended Resources
+- Mini Projects
+- Certifications
+
+---
+
+## 🎤 Interview Preparation
+
+Generate:
+
+- Technical Questions
+- Python Questions
+- SQL Questions
+- HR Questions
+- Project-Based Questions
+
+---
+
+## 💼 Career Advisor
+
+Receive AI-powered guidance including:
+
+- Resume Readiness
+- Hire Probability
+- Skills to Learn First
+- Career Advice
+- 30-Day Improvement Plan
+
+---
+
+## 📑 Professional PDF Report
+
+Download a comprehensive report containing:
+
+- ATS Score
+- Resume Similarity
+- Matched Skills
+- Missing Skills
+- AI Resume Review
+- Learning Roadmap
+- Interview Questions
+- Career Advice
+
+---
+
+# 🛠 Tech Stack
 
 ## Frontend
+
 - Streamlit
 - HTML
 - CSS
 
 ## Backend
+
 - Python
 
 ## Artificial Intelligence
-- Google Gemini API
 
-## NLP & Machine Learning
+- Google Gemini API
+- Ollama
+
+## Machine Learning
+
 - Sentence Transformers
-- spaCy
-- NLTK
 - Scikit-learn
 
-## Data Processing
-- Pandas
-- NumPy
+## NLP
 
-## Visualization
-- Plotly
+- NLTK
+
+## PDF Processing
+
+- PyPDF2
+- python-docx
+- pdfplumber
 
 ## Report Generation
+
 - ReportLab
 
-## Database
-- SQLite
+## Visualization
+
+- Plotly
+- Matplotlib
 
 ---
 
 # 📂 Project Structure
 
-```
-resume-analyzer-ai/
+```text
+AI-Resume-Analyzer/
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── .env
 ├── .gitignore
-│
-├── config/
-│   ├── settings.py
-│   ├── constants.py
-│   └── prompts.py
+├── .env
 │
 ├── modules/
 │   ├── parser.py
 │   ├── preprocessing.py
 │   ├── similarity.py
-│   ├── skill_extractor.py
 │   ├── ats_score.py
-│   ├── ai_review.py
+│   ├── skill_extractor.py
 │   ├── report.py
-│   └── charts.py
-│
-├── data/
-│   ├── skills.csv
-│   ├── stopwords.txt
-│   └── synonyms.json
-│
-├── database/
-│   ├── init_db.py
-│   └── database.db
-│
-├── reports/
+│   ├── charts.py
+│   ├── job_loader.py
+│   └── ai/
+│       ├── ai_service.py
+│       ├── gemini_service.py
+│       ├── ollama_service.py
+│       ├── resume_review.py
+│       ├── roadmap.py
+│       ├── interview.py
+│       └── career_advisor.py
 │
 ├── static/
 │   ├── style.css
-│   └── logo.png
+│   └── images/
+│       └── logo.png
 │
-└── templates/
-    └── report.html
+├── templates/
+│   └── report.html
+│
+└── reports/
 ```
 
 ---
 
-# ⚙️ Installation
+# 🚀 Installation
 
-## Clone the Repository
+Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/resume-analyzer-ai.git
-
-cd resume-analyzer-ai
+git clone https://github.com/Merline1306/AI-Resume-Analyzer.git
 ```
 
----
+Go to the project directory
 
-## Create Virtual Environment
+```bash
+cd AI-Resume-Analyzer
+```
+
+Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate the environment
 
 ### Windows
 
 ```bash
-python -m venv venv
-
 venv\Scripts\activate
 ```
 
 ### Linux / macOS
 
 ```bash
-python3 -m venv venv
-
 source venv/bin/activate
 ```
 
----
-
-## Install Dependencies
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -162,25 +252,23 @@ pip install -r requirements.txt
 
 ---
 
-## Download spaCy Model
-
-```bash
-python -m spacy download en_core_web_sm
-```
-
----
-
-# 🔑 Configure Environment Variables
+# 🔑 Environment Variables
 
 Create a `.env` file in the project root.
 
 ```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-
-APP_ENV=development
-
-DEBUG=True
 ```
+
+If using Ollama locally, install Ollama and pull the required model.
+
+Example:
+
+```bash
+ollama pull gemma3
+```
+
+Start the Ollama server before selecting the Ollama provider in the application.
 
 ---
 
@@ -190,72 +278,42 @@ DEBUG=True
 streamlit run app.py
 ```
 
----
-
-# 📊 ATS Scoring Criteria
-
-The overall ATS score is calculated using multiple evaluation metrics.
-
-| Metric | Weight |
-|---------|--------|
-| Resume–JD Similarity | 35% |
-| Skill Match | 30% |
-| Experience Match | 15% |
-| Education Match | 10% |
-| Keyword Match | 10% |
-
----
-
-# 📸 Application Workflow
+Open:
 
 ```
-Upload Resume
-        │
-        ▼
-Extract Resume Text
-        │
-        ▼
-Text Preprocessing
-        │
-        ▼
-Skill Extraction
-        │
-        ▼
-Resume–JD Similarity
-        │
-        ▼
-ATS Score Calculation
-        │
-        ▼
-AI Resume Review
-        │
-        ▼
-Charts & Dashboard
-        │
-        ▼
-Download Report
+http://localhost:8501
 ```
+
+# ⚠️ Important Notes
+
+This project supports two AI providers:
+
+### Google Gemini
+
+- Works locally
+- Works on cloud deployment
+- Requires a Gemini API Key
+
+### Ollama
+
+- Works only on local machines
+- Requires Ollama installation
+- Not supported on Streamlit Community Cloud
 
 ---
 
-# 📌 Future Enhancements
+# 🔮 Future Enhancements
 
-- User Authentication
-- Resume History
-- Multiple Resume Comparison
+- Resume Builder
 - Cover Letter Generator
-- Interview Question Generator
-- Career Recommendation System
-- Resume Ranking
-- Dark Mode
+- LinkedIn Profile Analyzer
+- Resume Keyword Optimizer
 - Multi-language Support
-- Cloud Deployment
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
+- Resume Ranking
+- AI Chat Assistant
+- Mock Interview Simulator
+- Company-wise Resume Optimization
+- Resume Version Management
 
 ---
 
@@ -266,6 +324,22 @@ This project is licensed under the MIT License.
 M.Sc. Data Science  
 SASTRA Deemed University
 
-GitHub: https://github.com/Merline1306
+GitHub:
+
+https://github.com/Merline1306
 
 ---
+
+# ⭐ Support
+
+If you found this project helpful,
+
+please ⭐ the repository.
+
+It helps others discover the project.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
