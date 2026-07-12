@@ -269,15 +269,3 @@ SASTRA Deemed University
 GitHub: https://github.com/Merline1306
 
 ---
-
-## ⭐ Support
-
-If you found this project useful:
-
-⭐ Star the repository
-
-🍴 Fork the project
-
-📢 Share your feedback
-
-Happy Coding! 🚀
