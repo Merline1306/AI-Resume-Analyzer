@@ -1,0 +1,653 @@
+Skill
+Python
+Java
+C
+C++
+C#
+R
+MATLAB
+JavaScript
+TypeScript
+Go
+Rust
+Kotlin
+Swift
+PHP
+Ruby
+Scala
+Perl
+SQL
+PL/SQL
+MySQL
+PostgreSQL
+SQLite
+MongoDB
+Oracle
+Redis
+Firebase
+Cassandra
+DynamoDB
+Neo4j
+Pandas
+NumPy
+SciPy
+Matplotlib
+Seaborn
+Plotly
+Scikit-learn
+TensorFlow
+PyTorch
+Keras
+XGBoost
+LightGBM
+CatBoost
+OpenCV
+NLTK
+spaCy
+Gensim
+Transformers
+Sentence Transformers
+Hugging Face
+FastAI
+Machine Learning
+Deep Learning
+Artificial Intelligence
+Generative AI
+LLM
+Large Language Models
+Prompt Engineering
+RAG
+GraphRAG
+Knowledge Graph
+Semantic Search
+Vector Database
+Vector Search
+FAISS
+ChromaDB
+Pinecone
+Weaviate
+Milvus
+LangChain
+LlamaIndex
+Ollama
+OpenAI API
+Gemini API
+Claude API
+Mistral
+Computer Vision
+Natural Language Processing
+NLP
+Speech Recognition
+OCR
+Recommendation Systems
+Reinforcement Learning
+Classification
+Regression
+Clustering
+Decision Tree
+Random Forest
+SVM
+Support Vector Machine
+Logistic Regression
+Linear Regression
+Naive Bayes
+KNN
+K-Means
+DBSCAN
+Gradient Boosting
+AdaBoost
+Feature Engineering
+Feature Selection
+Model Evaluation
+Cross Validation
+Hyperparameter Tuning
+Data Mining
+Data Cleaning
+Data Wrangling
+Data Visualization
+Exploratory Data Analysis
+EDA
+Statistics
+Probability
+Business Analytics
+Predictive Analytics
+Time Series Analysis
+A/B Testing
+Data Analysis
+Big Data
+Hadoop
+Spark
+PySpark
+Kafka
+Hive
+Airflow
+ETL
+ELT
+Data Warehouse
+Snowflake
+Databricks
+AWS
+Amazon S3
+Amazon EC2
+Amazon RDS
+Amazon Bedrock
+AWS Lambda
+AWS Translate
+AWS Comprehend
+Azure
+Azure ML
+Google Cloud
+GCP
+Vertex AI
+Docker
+Kubernetes
+Jenkins
+Git
+GitHub
+GitLab
+Bitbucket
+CI/CD
+Linux
+Unix
+Shell Scripting
+Bash
+PowerShell
+FastAPI
+Flask
+Django
+Streamlit
+Gradio
+REST API
+GraphQL
+Microservices
+HTML
+CSS
+Bootstrap
+Tailwind CSS
+React
+Angular
+Vue.js
+Node.js
+Express.js
+Next.js
+Redux
+Figma
+Postman
+Swagger
+JSON
+XML
+YAML
+Power BI
+Power Query
+DAX
+Tableau
+Looker
+Excel
+Google Sheets
+Oracle APEX
+n8n
+UiPath
+Automation Anywhere
+Blue Prism
+Robotic Process Automation
+RPA
+SolidWorks
+AutoCAD
+CATIA
+ANSYS
+Fusion 360
+MATLAB Simulink
+PLC
+SCADA
+Industry 4.0
+Industrial IoT
+IIOT
+Digital Twin
+Smart Manufacturing
+Automation Studio
+Node Red
+Modsim
+GD&T
+FMEA
+Lean Manufacturing
+Six Sigma
+Quality Engineering
+Manufacturing Processes
+Mechanical Engineering
+Electrical Engineering
+Embedded Systems
+Arduino
+Raspberry Pi
+Sensors
+Actuators
+Computer Networks
+Operating Systems
+DBMS
+OOP
+Data Structures
+Algorithms
+DSA
+Cloud Computing
+Cyber Security
+Ethical Hacking
+Penetration Testing
+Network Security
+Cryptography
+Blockchain
+IoT
+Web Development
+Mobile Development
+Android
+Flutter
+React Native
+Testing
+Unit Testing
+Integration Testing
+Selenium
+JUnit
+PyTest
+Communication
+Leadership
+Problem Solving
+Critical Thinking
+Analytical Thinking
+Team Collaboration
+Time Management
+Adaptability
+Continuous Learning
+Presentation Skills
+Project Management
+Agile
+Scrum
+Kanban
+JIRA
+Confluence
+Customer Analytics
+Financial Analytics
+Risk Analytics
+Business Intelligence
+Dashboard Development
+Report Generation
+Data Annotation
+Data Labeling
+Sentiment Analysis
+Text Classification
+Topic Modeling
+Image Processing
+Object Detection
+Image Segmentation
+GAN
+AutoML
+MLOps
+MLflow
+Kubeflow
+Model Deployment
+Model Monitoring
+Inference
+API Development
+Webhooks
+OAuth
+JWT
+Authentication
+Authorization
+Caching
+Multithreading
+Concurrency
+Parallel Computing
+Data Structures
+Algorithms
+Object Oriented Programming
+OOP
+DBMS
+Operating Systems
+Computer Networks
+Software Engineering
+Design Patterns
+Version Control
+Git
+GitHub
+GitLab
+Bitbucket
+CI/CD
+Jenkins
+Docker
+Docker Compose
+Kubernetes
+Helm
+Terraform
+Ansible
+Linux
+Ubuntu
+Shell Scripting
+Bash
+PowerShell
+Apache Kafka
+RabbitMQ
+Redis
+Elasticsearch
+Kibana
+Logstash
+Prometheus
+Grafana
+Apache Spark
+PySpark
+Hadoop
+Hive
+Pig
+Airflow
+Databricks
+Snowflake
+BigQuery
+ETL
+ELT
+Data Warehousing
+Data Lake
+Data Pipeline
+Data Engineering
+Feature Store
+MLflow
+Kubeflow
+DVC
+MLOps
+Model Deployment
+Model Serving
+Model Monitoring
+ONNX
+TorchServe
+TensorFlow Serving
+Flask
+Django
+FastAPI
+Streamlit
+Gradio
+Dash
+REST API
+GraphQL
+SOAP
+JSON
+XML
+YAML
+Swagger
+Postman
+JWT
+OAuth
+Authentication
+Authorization
+HTML
+HTML5
+CSS
+CSS3
+Bootstrap
+Tailwind CSS
+JavaScript
+TypeScript
+React
+ReactJS
+Next.js
+Vue.js
+Angular
+Node.js
+Express.js
+NestJS
+PHP
+Laravel
+Spring Boot
+ASP.NET
+Blazor
+C
+C++
+C#
+Java
+Python
+R
+MATLAB
+Julia
+Scala
+Go
+Rust
+Kotlin
+Swift
+Dart
+Flutter
+React Native
+Android
+iOS
+MySQL
+PostgreSQL
+SQLite
+Oracle Database
+SQL Server
+MongoDB
+Cassandra
+Neo4j
+Firebase
+Supabase
+Amazon S3
+Amazon EC2
+Amazon RDS
+AWS Lambda
+AWS IAM
+AWS CloudFormation
+AWS Glue
+AWS Athena
+Amazon SageMaker
+Amazon Bedrock
+AWS Translate
+AWS Comprehend
+AWS Rekognition
+Azure AI
+Azure ML
+Azure Blob Storage
+Google Cloud Platform
+Vertex AI
+Cloud Functions
+Cloud Storage
+Computer Vision
+Image Processing
+Image Classification
+Object Detection
+Object Tracking
+Image Segmentation
+OCR
+Face Recognition
+OpenCV
+YOLO
+YOLOv5
+YOLOv8
+Detectron2
+MediaPipe
+Deep Learning
+Machine Learning
+Artificial Intelligence
+Generative AI
+LLM
+Large Language Models
+Prompt Engineering
+Prompt Tuning
+Fine Tuning
+LoRA
+QLoRA
+PEFT
+Transfer Learning
+Knowledge Distillation
+Retrieval Augmented Generation
+RAG
+GraphRAG
+Knowledge Graph
+Vector Database
+Vector Search
+Semantic Search
+ChromaDB
+FAISS
+Pinecone
+Weaviate
+Milvus
+LangChain
+LlamaIndex
+Ollama
+OpenAI API
+Gemini API
+Claude API
+Mistral AI
+Hugging Face
+Transformers
+Sentence Transformers
+spaCy
+NLTK
+Text Mining
+Text Classification
+Sentiment Analysis
+Named Entity Recognition
+Topic Modeling
+Question Answering
+Chatbot Development
+Recommendation Systems
+Collaborative Filtering
+Content-Based Filtering
+Time Series Forecasting
+ARIMA
+LSTM
+GRU
+GAN
+AutoEncoder
+Diffusion Models
+Reinforcement Learning
+Q-Learning
+Deep Q Network
+Pandas
+NumPy
+SciPy
+Matplotlib
+Seaborn
+Plotly
+Bokeh
+Altair
+Scikit-learn
+TensorFlow
+Keras
+PyTorch
+XGBoost
+LightGBM
+CatBoost
+Random Forest
+Decision Tree
+Extra Trees
+AdaBoost
+Gradient Boosting
+SVM
+Support Vector Machine
+Logistic Regression
+Linear Regression
+Ridge Regression
+Lasso Regression
+ElasticNet
+Naive Bayes
+KNN
+K-Means
+DBSCAN
+Hierarchical Clustering
+PCA
+t-SNE
+UMAP
+Feature Engineering
+Feature Selection
+Feature Extraction
+Data Cleaning
+Data Wrangling
+Data Preprocessing
+Exploratory Data Analysis
+EDA
+Model Evaluation
+Cross Validation
+Hyperparameter Tuning
+Grid Search
+Random Search
+Bayesian Optimization
+Statistics
+Probability
+Hypothesis Testing
+A/B Testing
+Business Analytics
+Business Intelligence
+Power BI
+Power Query
+DAX
+Tableau
+Looker
+Excel
+Google Sheets
+Dashboard Development
+KPI Reporting
+Data Visualization
+Financial Analysis
+Risk Analytics
+Customer Analytics
+Marketing Analytics
+Healthcare Analytics
+Supply Chain Analytics
+Fraud Detection
+Forecasting
+Oracle APEX
+PL/SQL
+Automation
+Automation Studio
+Industrial Automation
+PLC
+SCADA
+Industrial IoT
+IIoT
+Industry 4.0
+Digital Twin
+Smart Manufacturing
+Node-RED
+SolidWorks
+AutoCAD
+CATIA
+Fusion 360
+ANSYS
+Creo
+GD&T
+FMEA
+Six Sigma
+Lean Manufacturing
+Quality Engineering
+Manufacturing Processes
+Mechanical Engineering
+Electrical Engineering
+Electronics
+Embedded Systems
+Arduino
+ESP32
+Raspberry Pi
+Microcontrollers
+Sensors
+Actuators
+PCB Design
+ROS
+Robotics
+Simulation
+MATLAB Simulink
+Project Management
+Agile
+Scrum
+Kanban
+JIRA
+Confluence
+Leadership
+Teamwork
+Communication
+Presentation Skills
+Problem Solving
+Critical Thinking
+Analytical Thinking
+Creativity
+Decision Making
+Negotiation
+Adaptability
+Time Management
+Continuous Learning
+Attention to Detail
+Documentation
+Technical Writing
+Research
+Innovation

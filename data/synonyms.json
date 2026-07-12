@@ -1,0 +1,200 @@
+{
+    "python": [
+        "python3",
+        "python programming"
+    ],
+
+    "sql": [
+        "mysql",
+        "postgresql",
+        "sqlite",
+        "sql server",
+        "oracle sql"
+    ],
+
+    "machine learning": [
+        "ml",
+        "machine-learning"
+    ],
+
+    "deep learning": [
+        "dl",
+        "deep-learning"
+    ],
+
+    "artificial intelligence": [
+        "ai"
+    ],
+
+    "natural language processing": [
+        "nlp",
+        "text mining"
+    ],
+
+    "computer vision": [
+        "cv",
+        "image processing"
+    ],
+
+    "data science": [
+        "data scientist"
+    ],
+
+    "data analytics": [
+        "data analysis",
+        "analytics"
+    ],
+
+    "power bi": [
+        "powerbi",
+        "microsoft power bi"
+    ],
+
+    "tableau": [
+        "tableau desktop"
+    ],
+
+    "excel": [
+        "microsoft excel",
+        "ms excel"
+    ],
+
+    "pandas": [
+        "pandas library"
+    ],
+
+    "numpy": [
+        "numpy library"
+    ],
+
+    "matplotlib": [
+        "matplotlib library"
+    ],
+
+    "seaborn": [
+        "seaborn library"
+    ],
+
+    "scikit-learn": [
+        "sklearn",
+        "scikit learn"
+    ],
+
+    "tensorflow": [
+        "tf"
+    ],
+
+    "pytorch": [
+        "torch"
+    ],
+
+    "flask": [
+        "flask framework"
+    ],
+
+    "django": [
+        "django framework"
+    ],
+
+    "fastapi": [
+        "fast api"
+    ],
+
+    "html": [
+        "html5"
+    ],
+
+    "css": [
+        "css3"
+    ],
+
+    "javascript": [
+        "js",
+        "ecmascript"
+    ],
+
+    "php": [
+        "php8",
+        "php7"
+    ],
+
+    "java": [
+        "core java",
+        "java programming"
+    ],
+
+    "c++": [
+        "cpp"
+    ],
+
+    "c#": [
+        "c sharp"
+    ],
+
+    "git": [
+        "git version control"
+    ],
+
+    "github": [
+        "git hub"
+    ],
+
+    "docker": [
+        "docker container"
+    ],
+
+    "kubernetes": [
+        "k8s"
+    ],
+
+    "aws": [
+        "amazon web services"
+    ],
+
+    "azure": [
+        "microsoft azure"
+    ],
+
+    "gcp": [
+        "google cloud",
+        "google cloud platform"
+    ],
+
+    "linux": [
+        "ubuntu",
+        "debian",
+        "centos"
+    ],
+
+    "mongodb": [
+        "mongo db"
+    ],
+
+    "mysql": [
+        "my sql"
+    ],
+
+    "postgresql": [
+        "postgres"
+    ],
+
+    "communication": [
+        "verbal communication",
+        "written communication"
+    ],
+
+    "leadership": [
+        "team leadership",
+        "leading teams"
+    ],
+
+    "problem solving": [
+        "analytical thinking",
+        "critical thinking"
+    ],
+
+    "teamwork": [
+        "collaboration",
+        "team collaboration"
+    ]
+}

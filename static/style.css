@@ -1,0 +1,492 @@
+/* =========================================================
+   AI Resume Analyzer
+   Modern UI
+========================================================= */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
+html,
+body,
+[class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==========================================================
+   Main Background
+========================================================== */
+
+.stApp{
+
+    background:linear-gradient(
+        180deg,
+        #F8FAFC 0%,
+        #EEF2FF 100%
+    );
+
+    font-family:'Sora',sans-serif;
+
+}
+
+/* ==========================================================
+   Hero Section
+========================================================== */
+
+.hero{
+
+    background:linear-gradient(
+        135deg,
+        #0F172A 0%,
+        #1E293B 100%
+    );
+
+    border-radius:24px;
+
+    padding:40px 50px;
+
+    box-shadow:
+        0 15px 40px rgba(15,23,42,.18);
+
+    margin-bottom:35px;
+
+}
+
+.hero-content{
+
+    display:flex;
+
+    align-items:center;
+
+}
+.hero-center{
+
+    justify-content:flex-start;
+
+}
+.hero-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+.hero-logo{
+
+    width:110px;
+
+    height:110px;
+
+    border-radius:18px;
+
+    object-fit:cover;
+
+}
+
+.hero-title{
+
+    color:#FFFFFF !important;
+
+    font-size:64px;
+
+    font-weight:900;
+
+    font-family:"Sora", sans-serif;
+
+    line-height:1;
+
+    letter-spacing:-1.5px;
+
+    margin:0;
+
+    text-shadow:
+        0 3px 10px rgba(0,0,0,0.35);
+
+}
+
+.hero-subtitle{
+
+    color:#FFFFFF;
+
+    opacity:.95;
+
+    font-size:22px;
+
+    font-weight:600;
+
+    margin-top:18px;
+
+}
+
+.hero-description{
+
+    color:#CBD5E1;
+
+    font-size:17px;
+
+    line-height:1.7;
+
+    margin-top:12px;
+
+    max-width:760px;
+
+}
+
+.hero-badge{
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+    padding:16px 24px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    text-align:center;
+
+}
+
+/* ==========================================================
+   Upload Box
+========================================================== */
+
+[data-testid="stFileUploader"]{
+
+    border:2px dashed #4F46E5;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    background:white;
+
+    transition:.3s;
+
+}
+
+[data-testid="stFileUploader"]:hover{
+
+    border-color:#7C3AED;
+
+    background:#F5F3FF;
+
+}
+
+/* ==========================================================
+   Button
+========================================================== */
+
+.stButton>button{
+
+    width:100%;
+
+   background: linear-gradient(
+    135deg,
+    #1F2937,
+    #374151
+);
+
+    color:white;
+
+    border:none;
+
+    border-radius:15px;
+
+    padding:15px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 20px rgba(79,70,229,.3);
+
+}
+
+/* ==========================================================
+   Metric Cards
+========================================================== */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+    border-left:6px solid #4F46E5;
+
+}
+
+/* ==========================================================
+   Tabs
+========================================================== */
+
+.stTabs{
+
+    background:white;
+
+    padding:15px;
+
+    border-radius:18px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+}
+
+button[data-baseweb="tab"]{
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+/* ==========================================================
+   Cards
+========================================================== */
+
+.card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================================================
+   Score Card
+========================================================== */
+
+.score-card{
+
+    background:linear-gradient(
+        135deg,
+        #4F46E5,
+        #7C3AED
+    );
+
+    color:white;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    padding:35px;
+
+}
+
+.score-card h1{
+
+    font-size:55px;
+
+}
+
+.score-card h4{
+
+    opacity:.9;
+
+}
+
+/* ==========================================================
+   Success Box
+========================================================== */
+
+.success-box{
+
+    background:#ECFDF5;
+
+    border-left:5px solid #10B981;
+
+    padding:18px;
+
+    border-radius:10px;
+
+}
+
+/* ==========================================================
+   Warning Box
+========================================================== */
+
+.warning-box{
+
+    background:#FFF7ED;
+
+    border-left:5px solid #F59E0B;
+
+    padding:18px;
+
+    border-radius:10px;
+
+}
+
+/* ==========================================================
+   Error Box
+========================================================== */
+
+.error-box{
+
+    background:#FEF2F2;
+
+    border-left:5px solid #EF4444;
+
+    padding:18px;
+
+    border-radius:10px;
+
+}
+
+/* ==========================================================
+   AI Review Box
+========================================================== */
+
+.ai-box{
+
+    background:#EEF2FF;
+
+    border-left:6px solid #4F46E5;
+
+    padding:20px;
+
+    border-radius:15px;
+
+}
+
+/* ==========================================================
+   Skill Chips
+========================================================== */
+
+.skill-chip{
+
+    display:inline-block;
+
+    background:#4F46E5;
+
+    color:white;
+
+    padding:8px 14px;
+
+    margin:5px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+}
+
+.skill-chip:hover{
+
+    background:#7C3AED;
+
+}
+
+/* ==========================================================
+   Tables
+========================================================== */
+
+table{
+
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:#4F46E5;
+
+    color:white;
+
+}
+
+th,
+td{
+
+    padding:12px;
+
+}
+
+/* ==========================================================
+   Footer
+========================================================== */
+
+.footer{
+
+    margin-top:50px;
+
+    text-align:center;
+
+    color:gray;
+
+    font-size:14px;
+
+}
+
+/* ==========================================================
+   Scrollbar
+========================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#4F46E5;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#ECECEC;
+
+}
+
+/* ==========================================================
+   Responsive
+========================================================== */
+
+@media(max-width:768px){
+
+.hero h1{
+
+    font-size:30px;
+
+}
+
+.hero p{
+
+    font-size:15px;
+
+}
+
+.score-card h1{
+
+    font-size:40px;
+
+}
+
+}
