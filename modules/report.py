@@ -6,8 +6,9 @@ Professional PDF Report Generator
 """
 
 import os
+import re
 from datetime import datetime
-
+from xml.sax.saxutils import escape
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.pagesizes import A4
@@ -74,15 +75,28 @@ class ReportGenerator:
             Spacer(1, 6),
         ]
 
-    def _format_text(self, content):
-        if content is None:
+    def _format_text(self, text):
+        if not text:
             return ""
 
-        if isinstance(content, (list, tuple)):
-            content = "\n".join(str(item) for item in content)
+        # Convert markdown/HTML line breaks to newline
+        text = text.replace("<br>", "\n")
+        text = text.replace("<br/>", "\n")
+        text = text.replace("<br />", "\n")
 
-        text = str(content).replace("\r\n", "\n").replace("\r", "\n")
-        return text.replace("\n", "<br/>")
+        # Remove markdown headings
+        text = re.sub(r"^#{1,6}\s*", "", text, flags=re.MULTILINE)
+
+        # Remove markdown bold
+        text = text.replace("**", "")
+
+        # Escape HTML/XML characters
+        text = escape(text)
+
+        # Convert newlines to ReportLab line breaks
+        text = text.replace("\n", "<br/>")
+
+        return text
 
     def _add_section(self, story, title, content):
         if content in (None, "", [], {}):
